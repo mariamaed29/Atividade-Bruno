@@ -1,0 +1,104 @@
+/* Estilo geral do jornal */
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    color: #1a237e;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+h2 {
+    color: #3949ab;
+    border-bottom: 2px solid #3949ab;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: #222;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10px auto 20px auto;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    width: 320px;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(60,60,60,0.10);
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto 20px auto;
+    font-size: 1.1em;
+    line-height: 1.7;
+    background: #fff;
+    padding: 18px 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(60,60,60,0.07);
+}
+
+a {
+    color: #1a237e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #3949ab;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0 10px 0;
+    background: #1a237e;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid #3949ab;
+}
+
+.rodape {
+    margin: 0;
+    font-size: 1em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3949ab;
+    margin: 30px 0 10px 0;
+}
+
+@media (max-width: 700px) {
+    h1, h2, h3, p, img {
+        max-width: 98vw;
+        padding: 0 5px;
+    }
+    img {
+        width: 98vw;
+        max-width: 300px;
+    }
+    p {
+        padding: 10px;
+    }
+}
