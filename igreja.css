@@ -1,0 +1,129 @@
+:root {
+  --marrom-claro: #e7d3b7;
+  --marrom-medio: #b89c6b;
+  --marrom-suave: #d6bfa7;
+  --marrom-escuro: #7f5a36;
+  --marrom-profundo: #4b2e13;
+  --branco: #f9f6f2;
+}
+
+/* Fundo geral */
+body {
+  background: linear-gradient(120deg, var(--branco) 70%, var(--marrom-claro) 100%);
+  color: var(--marrom-profundo);
+  font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+}
+
+/* Cabeçalho */
+header {
+  background: var(--marrom-suave);
+  color: var(--marrom-escuro);
+  padding: 36px 0 18px 0;
+  text-align: center;
+  border-bottom: 2px solid var(--marrom-medio);
+  box-shadow: 0 2px 8px rgba(123, 90, 54, 0.08);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.7rem;
+  font-family: 'Georgia', serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-shadow: 1px 1px 0 var(--marrom-claro);
+}
+
+/* Navegação */
+nav {
+  background: var(--marrom-medio);
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 0 0 16px 16px;
+  margin-bottom: 12px;
+}
+
+nav a {
+  color: var(--branco);
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 1px 4px rgba(123, 90, 54, 0.07);
+}
+
+nav a:hover {
+  background: var(--marrom-escuro);
+  color: var(--marrom-claro);
+}
+
+/* Seções */
+section {
+  background: var(--branco);
+  margin: 36px auto;
+  padding: 36px 28px;
+  max-width: 820px;
+  border-radius: 20px;
+  box-shadow: 0 2px 16px rgba(123, 90, 54, 0.10);
+  border: 1.5px solid var(--marrom-suave);
+}
+
+/* Títulos das seções */
+section h2, h4 {
+  color: var(--marrom-escuro);
+  border-bottom: 1.5px solid var(--marrom-medio);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  background: linear-gradient(90deg, var(--marrom-claro) 60%, transparent 100%);
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  background: var(--marrom-escuro);
+  color: var(--branco);
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 44px;
+  font-size: 1rem;
+  border-top: 2px solid var(--marrom-medio);
+  border-radius: 0 0 16px 16px;
+  letter-spacing: 1px;
+}
+
+/* Botões delicados */
+button {
+  background: var(--marrom-medio);
+  color: var(--branco);
+  border: none;
+  padding: 10px 28px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 8px 4px;
+  box-shadow: 0 1px 6px rgba(123, 90, 54, 0.10);
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background: var(--marrom-escuro);
+  color: var(--marrom-claro);
+}
+
+button a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+
