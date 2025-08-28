@@ -1,0 +1,28 @@
+h1{
+    color: purple;
+    background-color: pink ;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+h1:hover{
+    color: white;
+    background-color: black;
+    padding: 0.5s;
+}
+h2{
+    color: magenta;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+h2:hover{
+    color: white;
+    background-color: plum;
+    padding: 0.5s;
+}
+
+img{
+    height: 70px;
+    width: auto;
+}
